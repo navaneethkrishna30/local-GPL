@@ -39,3 +39,9 @@ services:
       - loki
     restart: always
     network_mode: host
+
+  pushgateway:
+    image: prom/pushgateway:latest
+    container_name: pushgateway
+    restart: always
+    network_mode: host
