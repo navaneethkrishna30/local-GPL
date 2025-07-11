@@ -11,5 +11,3 @@ datasources:
     type: loki
     access: proxy
     url: http://localhost/loki
-    jsonData:
-      maxLines: 1000
